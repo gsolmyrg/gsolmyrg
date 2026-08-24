@@ -1,6 +1,6 @@
 # Guilherme Candeloro Padilha
 
-**AI Solutions Architect** — Generative AI, Enterprise RAG & Multi-Agent Systems | Self-Hosted LLM Infrastructure
+**AI Solutions Architect** — Generative AI, Enterprise RAG & Multi-Agent Systems | Cloud and Self-Hosted LLM Infrastructure
 
 Florianópolis, Brazil · [LinkedIn](https://www.linkedin.com/in/guilherme-candeloro-72113426b) · guilherme@aiveon.com
 
@@ -16,7 +16,7 @@ My focus is the part of GenAI that most teams skip: **running it yourself, relia
 
 - **Enterprise RAG** over dense, messy document corpora — OCR and sanitization, chunking strategy, embeddings, hybrid retrieval, reranking, grounded generation with source attribution
 - **Agentic systems** — single and multi-agent architectures with controlled tool scopes, designed so every action is visible and logged
-- **Self-hosted LLM inference** — open-weight models served with vLLM, NVIDIA NIM, Triton, and TensorRT-LLM on NVIDIA L40S, RTX 6000 Blackwell, and Intel Gaudi 2
+- **LLM inference, cloud and self-hosted** — open-weight models served with vLLM, NVIDIA NIM, Triton, and TensorRT-LLM on NVIDIA L40S, RTX 6000 Blackwell, and Intel Gaudi 2, or as containerized endpoints on AWS and GCP when the workload calls for it
 - **AI for regulated domains** — banking and collections, healthcare and mental health, public sector, education, legal and compliance
 - **Evaluation as engineering** — custom QA datasets, LLM-as-a-judge scoring, and expert-in-the-loop validation, because "it looks good in the demo" is not a metric
 
@@ -76,9 +76,9 @@ A three-repository reference implementation of a multi-agent conversational syst
 
 ## Stack
 
-**Models** — GPT-4 / 4o / o-series · Claude · Gemini · Llama 3.x · Mistral / Mixtral · Qwen · DeepSeek
+**Models** — OpenAI (GPT-4 / 4o / o-series) · Anthropic Claude · Google Gemini · Llama 3.x · Mistral / Mixtral · Qwen · DeepSeek · Whisper (speech-to-text)
 
-**Serving & inference** — vLLM · NVIDIA NIM · Triton Inference Server · TensorRT-LLM · Ollama
+**Serving & inference** — vLLM · NVIDIA NIM · Triton Inference Server · TensorRT-LLM · Ollama · cloud-managed endpoints (AWS, GCP)
 
 **Retrieval** — Milvus · pgvector · Pinecone · Chroma / FAISS
 
@@ -96,16 +96,6 @@ A three-repository reference implementation of a multi-agent conversational syst
 
 ---
 
-## Speaking, teaching & mentoring
-
-- **2026** — Speaker, multinational aerospace manufacturer: *AI in Hyperautomated Critical Environments*, delivered in person and live-streamed to 820 LATAM engineers
-- **2025** — Plenary Speaker, Brazilian Government: practical and responsible use of AI in the public sector
-- **2025** — Guest Lecturer, ISLA (Portugal): Cybersecurity and Artificial Intelligence
-- **2025** — Plenary Speaker, Porto Business Group (Portugal): applying AI to business productivity
-- **2025** — Startup Mentor, 351 Startups & Techstars (Portugal): AI strategy and product validation
-
----
-
 ## Credentials
 
 **NVIDIA (official)** — NIM Microservices · Deploying a Model for Inference at Production Scale · Building RAG Agents with LLMs · Improving the Effectiveness of RAG Systems · Sizing LLM Inference Systems · InfiniBand Essentials
@@ -113,11 +103,3 @@ A three-repository reference implementation of a multi-agent conversational syst
 **Education** — Postgraduate Diploma in Data Science · Postgraduate Diploma in Advanced Python Programming · Technologist Degree in Information Security · AI Applications in Healthcare and Technical Fundamentals of Generative AI (Stanford) · AI for Business and OpenAI GPTs Development (Harvard Business School) · Python and Machine Learning (USP)
 
 **Security & privacy** — Privacy & Data Protection · LGPD/GDPR Compliance · Cybersecurity (NYU)
-
----
-
-## Open to
-
-AI Solutions Architect · Generative AI Architect · Principal / Staff AI Engineer · AI Engineering Lead
-
-Reach me at **guilherme@aiveon.com**.
