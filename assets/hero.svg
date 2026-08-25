@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="240" viewBox="0 0 880 240" role="img" aria-label="Terminal session probing a tokenizer for invisible characters: the classifier passes the input while the model receives a different sequence. The trust boundary starts before the model.">
+  <title>AI Security / Red Team - the trust boundary starts before the model</title>
+
+  <defs>
+    <radialGradient id="glow" cx="86%" cy="2%" r="72%">
+      <stop offset="0%" stop-color="#E11D2E" stop-opacity="0.22"/>
+      <stop offset="100%" stop-color="#E11D2E" stop-opacity="0"/>
+    </radialGradient>
+
+    <linearGradient id="scan" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FF4058" stop-opacity="0"/>
+      <stop offset="55%" stop-color="#FF4058" stop-opacity="0.45"/>
+      <stop offset="100%" stop-color="#FF4058" stop-opacity="0"/>
+    </linearGradient>
+
+    <clipPath id="card">
+      <rect x="1" y="1" width="878" height="238" rx="10"/>
+    </clipPath>
+
+    <!-- Typing effect: the clip window widens across the character run. -->
+    <clipPath id="typeCmd">
+      <rect x="26" y="46" width="0" height="28">
+        <animate attributeName="width" values="0;0;430;430;430" keyTimes="0;0.033;0.222;0.989;1" dur="9s" repeatCount="indefinite"/>
+      </rect>
+    </clipPath>
+
+    <clipPath id="typeEnd">
+      <rect x="26" y="192" width="0" height="28">
+        <animate attributeName="width" values="0;0;400;400;400" keyTimes="0;0.622;0.800;0.989;1" dur="9s" repeatCount="indefinite"/>
+      </rect>
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#card)" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', monospace">
+    <rect width="880" height="240" fill="#08090B"/>
+    <g stroke="#0F1216" stroke-width="1">
+      <path d="M132 30V240M264 30V240M396 30V240M528 30V240M660 30V240M792 30V240"/>
+    </g>
+    <rect width="880" height="240" fill="url(#glow)"/>
+
+    <rect width="880" height="44" fill="url(#scan)" transform="translate(0 -44)">
+      <animateTransform attributeName="transform" type="translate" values="0 -44;0 240" dur="5.5s" repeatCount="indefinite"/>
+    </rect>
+
+    <rect width="880" height="30" fill="#0C0E12"/>
+    <rect width="3" height="30" fill="#E11D2E"/>
+    <line x1="0" y1="30" x2="880" y2="30" stroke="#1C1F26"/>
+    <text x="20" y="20" font-size="11.5" letter-spacing="0.8" fill="#5C6675">root@aiveon:~/redteam</text>
+    <text x="858" y="20" font-size="11.5" letter-spacing="1.6" text-anchor="end" fill="#E11D2E">AI SECURITY // RED TEAM</text>
+
+    <g font-size="15">
+      <g clip-path="url(#typeCmd)">
+        <text x="28" y="66" fill="#D8DEE9" opacity="0"><tspan fill="#FF4058">$</tspan> ./probe --target tokenizer --reveal-invisible<animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.028;0.036;0.933;0.978;1" dur="9s" repeatCount="indefinite"/></text>
+      </g>
+
+      <g opacity="0">
+        <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.267;0.275;0.933;0.978;1" dur="9s" repeatCount="indefinite"/>
+        <text x="28" y="104" fill="#8B95A3"><tspan fill="#5C6675">[*]</tspan> input</text>
+        <text x="184" y="104" fill="#D8DEE9">"please summarize this document"</text>
+      </g>
+
+      <g opacity="0">
+        <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.356;0.364;0.933;0.978;1" dur="9s" repeatCount="indefinite"/>
+        <text x="28" y="128" fill="#8B95A3"><tspan fill="#FF4058">[!]</tspan> hidden</text>
+        <text x="184" y="128" fill="#F59E0B">U+200B&#160;&#160;U+200B&#160;&#160;U+2062<animate attributeName="opacity" values="1;0.3;1" dur="1.3s" repeatCount="indefinite"/></text>
+      </g>
+
+      <g opacity="0">
+        <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.444;0.452;0.933;0.978;1" dur="9s" repeatCount="indefinite"/>
+        <text x="28" y="152" fill="#8B95A3"><tspan fill="#22C55E">[+]</tspan> classifier</text>
+        <text x="184" y="152" fill="#22C55E">PASS</text>
+      </g>
+
+      <g opacity="0">
+        <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.533;0.541;0.933;0.978;1" dur="9s" repeatCount="indefinite"/>
+        <text x="28" y="176" fill="#8B95A3"><tspan fill="#FF4058">[!]</tspan> model input</text>
+        <text x="184" y="176" fill="#FF4058">DIFFERENT SEQUENCE</text>
+      </g>
+
+      <g clip-path="url(#typeEnd)">
+        <text x="28" y="212" fill="#D8DEE9" opacity="0"><tspan fill="#FF4058">$</tspan> the trust boundary starts before the model<animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.617;0.625;0.933;0.978;1" dur="9s" repeatCount="indefinite"/></text>
+      </g>
+
+      <rect x="428" y="200" width="9" height="15" fill="#FF4058" opacity="0">
+        <animate attributeName="opacity" values="0;0;1;0;1;0;1;0" keyTimes="0;0.800;0.820;0.858;0.878;0.906;0.924;1" dur="9s" repeatCount="indefinite"/>
+      </rect>
+    </g>
+
+    <rect x="1" y="1" width="878" height="238" rx="10" fill="none" stroke="#1F242C"/>
+  </g>
+</svg>
