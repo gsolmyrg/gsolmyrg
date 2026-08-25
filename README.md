@@ -1,3 +1,5 @@
+<img src="https://raw.githubusercontent.com/gsolmyrg/gsolmyrg/main/assets/hero.svg?v=1" alt="Terminal session probing a tokenizer for invisible characters: the classifier passes the input while the model receives a different sequence" width="880">
+
 # Guilherme Candeloro Padilha
 
 **AI Solutions Architect · AI Security Advisor**
@@ -5,15 +7,15 @@
 Florianópolis, Brazil · [LinkedIn](https://www.linkedin.com/in/guilherme-candeloro-72113426b) · guilherme@aiveon.com
 
 <p align="left">
-  <img src="https://img.shields.io/badge/FOCUS-AI%20Security%20%C2%B7%20GenAI%20Architecture-F59E0B?style=flat-square&labelColor=0B1220" alt="Focus: AI security and GenAI architecture">
-  <img src="https://img.shields.io/badge/APPLIED%20AI-5%2B%20years-0B1220?style=flat-square&labelColor=0B1220" alt="5+ years applied AI">
-  <img src="https://img.shields.io/badge/TECHNOLOGY-20%2B%20years-0B1220?style=flat-square&labelColor=0B1220" alt="20+ years in technology">
-  <img src="https://img.shields.io/badge/RUNS-cloud%20%C2%B7%20on--prem%20%C2%B7%20air--gapped-0B1220?style=flat-square&labelColor=0B1220" alt="Cloud, on-premise, air-gapped">
+  <img src="https://img.shields.io/badge/FOCUS-AI%20Security%20%C2%B7%20GenAI%20Architecture-E11D2E?style=flat-square&labelColor=08090B" alt="Focus: AI security and GenAI architecture">
+  <img src="https://img.shields.io/badge/APPLIED%20AI-5%2B%20years-08090B?style=flat-square&labelColor=08090B" alt="5+ years applied AI">
+  <img src="https://img.shields.io/badge/TECHNOLOGY-20%2B%20years-08090B?style=flat-square&labelColor=08090B" alt="20+ years in technology">
+  <img src="https://img.shields.io/badge/RUNS-cloud%20%C2%B7%20on--prem%20%C2%B7%20air--gapped-08090B?style=flat-square&labelColor=08090B" alt="Cloud, on-premise, air-gapped">
 </p>
 
 ---
 
-## The trust boundary is usually drawn in the wrong place
+## What you just watched
 
 ```text
    input ─▶ filter ─▶ normalize ─▶ tokenize ─▶ representation ─▶ output
@@ -21,7 +23,9 @@ Florianópolis, Brazil · [LinkedIn](https://www.linkedin.com/in/guilherme-cande
    controls inspect here           behavior is decided here
 ```
 
-A security control that reads visible text is not necessarily reading what the model receives. That gap is where I work: designing Generative AI systems that hold up not only against an audit, but against someone actively trying to break them.
+A security control that reads visible text is not necessarily reading what the model receives. Zero-width characters survive the filter, change the segmentation, and reach the model as something else. The classifier reports clean. The model was handed a different sequence.
+
+That gap is where I work: designing Generative AI systems that hold up not only against an audit, but against someone actively trying to break them.
 
 Twenty years in infrastructure and information security, five building applied AI. The second half only makes sense because of the first.
 
