@@ -4,7 +4,7 @@
 
 **AI Solutions Architect · AI Security Advisor**
 
-Florianópolis, Brazil · [LinkedIn](https://www.linkedin.com/in/guilherme-candeloro-72113426b) · guilherme@aiveon.com
+Florianópolis, Brazil · [LinkedIn](https://www.linkedin.com/in/guilhermecandeloro) · guilherme@aiveon.com
 
 <p align="left">
   <img src="https://img.shields.io/badge/FOCUS-AI%20Security%20%C2%B7%20GenAI%20Architecture-E11D2E?style=flat-square&labelColor=08090B" alt="Focus: AI security and GenAI architecture">
@@ -43,7 +43,7 @@ The argument: tokenization sits inside the trust boundary, and therefore belongs
 
 > *Are we protecting only what users can read, or also what models actually process?*
 
-Published on [LinkedIn](https://www.linkedin.com/in/guilherme-candeloro-72113426b), where I write on AI security and applied GenAI architecture.
+Published on [LinkedIn](https://www.linkedin.com/in/guilhermecandeloro), where I write on AI security and applied GenAI architecture.
 
 ---
 
